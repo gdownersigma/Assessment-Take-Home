@@ -51,7 +51,7 @@ def create_top_authors_bar_chart(df: pd.DataFrame) -> None:
 
 
 if __name__ == "__main__":
-    df = load_data("data/PROCESSED_DATA_0.csv")
+    df = load_data("PROCESSED_DATA.csv")
     print(f"Loaded {len(df)} records.")
 
     print(get_decade(2005))

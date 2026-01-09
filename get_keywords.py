@@ -65,7 +65,7 @@ def create_keywords_bar_chart(keyword_counts: pd.DataFrame) -> None:
 
 
 if __name__ == "__main__":
-    df = load_data("data/PROCESSED_DATA_0.csv")
+    df = load_data("PROCESSED_DATA.csv")
     print(f"Loaded {len(df)} records.")
 
     keyword_counts = get_keyword_counts(df)
